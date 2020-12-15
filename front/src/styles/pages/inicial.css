@@ -1,0 +1,100 @@
+#page-inicial {  
+  background-color: #19D3DA ;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+#page-main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh; 
+  background-color: white;
+  height: 80vh;
+  width: 35vw;
+  border-radius: 3%;
+  
+}
+#page-corpo{
+  padding: 30px;
+}
+#textoh1{
+  color: #12A7BB;  
+}
+#textop1{
+  color:black;
+  font-weight: bold;  
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#inputEmail{
+  font-family: "FontAwesome";
+  width: 30vw;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+#email {
+  padding-left: 30px; 
+  color: #ff0000;
+  font-family: "FontAwesome";
+  width: 100%;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+#email-label {
+  position: relative;
+}
+#email-label:before {
+  color:black;
+  content:"\f003";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+}
+#senha {
+  padding-left: 30px;
+  width: 100%;
+  color: #ff0000;
+  font-family: "FontAwesome";
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+#senha-label {
+  position: relative;
+}
+#senha-label:before {
+  color:black;
+  content:"\f023";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+}
+#label{
+  margin-top: 10px;
+}
+#conectado{
+  margin-top: 30px;
+  color:#19D3DA;
+  margin-right: 10px;
+  border-color:#19D3DA;
+  margin-bottom: 10px;
+
+}
+#entrar{
+  margin-top: 0px;
+  color:white;
+  background-color:#19D3DA;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+}
